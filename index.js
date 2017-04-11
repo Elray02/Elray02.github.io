@@ -64,15 +64,15 @@ $(document).ready(function () {
 
 	parallax.personal1.onload=function(){
 		setLeft("index", "Home");
-		 setRight("personal2", "Ombre di Se");
+		 setRight("personal2", "Walk on the digital side");
 	};
 	parallax.personal2.onload=function(){
 		setLeft("personal1", "Fornace");
-		 setRight("personal3", "Walk on the digital side");
+		 setRight("personal3", "Ombre di se");
 	};
 
 	parallax.personal3.onload=function(){
-			setLeft("personal2", "Ombre di Se");
+			setLeft("personal2", "Walk on the digital side");
 			setRight("personal4", "Pop the movie");
 	};
 	parallax.personal4.onload=function(){
