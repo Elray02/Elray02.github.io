@@ -22,7 +22,10 @@ $(document).ready(function () {
 			.add($("#freelance2"))
 			.add($("#freelance3"))
 			.add($("#freelance4"))
-			.add($("#personal1"));
+			.add($("#personal1"))
+			.add($("#personal2"))
+			.add($("#personal3"))
+			.add($("#personal4"));
 
 
 	parallax.background = $("body");
@@ -61,7 +64,20 @@ $(document).ready(function () {
 
 	parallax.personal1.onload=function(){
 		setLeft("index", "Home");
-		// setRight("me", "The Guy");
+		 setRight("personal2", "Ombre di Se");
+	};
+	parallax.personal2.onload=function(){
+		setLeft("personal1", "Fornace");
+		 setRight("personal3", "Walk on the digital side");
+	};
+
+	parallax.personal3.onload=function(){
+			setLeft("personal2", "Ombre di Se");
+			setRight("personal4", "Pop the movie");
+	};
+	parallax.personal4.onload=function(){
+			setLeft("personal3", "Ombre di se");
+			setRight("index", "Home");
 	};
 
 	// parallax.me.onload=function(){
