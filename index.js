@@ -25,7 +25,9 @@ $(document).ready(function () {
 			.add($("#personal1"))
 			.add($("#personal2"))
 			.add($("#personal3"))
-			.add($("#personal4"));
+			.add($("#personal4"))
+			.add($("#personal5"))
+			.add($("#personal6"));
 
 
 	parallax.background = $("body");
@@ -77,6 +79,14 @@ $(document).ready(function () {
 	};
 	parallax.personal4.onload=function(){
 			setLeft("personal3", "Ombre di se");
+			setRight("personal5", "Point the Pixel");
+	};
+	parallax.personal5.onload=function(){
+			setLeft("personal4", "Pop the movie");
+			setRight("personal6", "Labyrint");
+	};
+	parallax.personal6.onload=function(){
+			setLeft("personal5", "Point the Pixel");
 			setRight("index", "Home");
 	};
 
