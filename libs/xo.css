@@ -18,7 +18,7 @@ body,p,ul,ol,dl,textarea,input {font-family: 'LeagueGothic'; font-size:25px;}
 
 /* ----- BLUEPRINT ----- */
   /* container_width/#divisions - margin */
-.xoblueprint {width:950px;margin:0 auto;overflow:auto;}
+.xoblueprint {width:950px;margin:0 auto;overflow: auto;}
 .x1,.x2,.x3,.x4,.x5,.x6 {float:;margin-right:10px;}
 .last {margin-right:0;clear:right;}
 .x1 {width:150px;}
