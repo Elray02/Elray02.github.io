@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 	parallax.add($("#features"))
 			.add($("#index"))
-			.add($("#boo"))
+			.add($("#photo"))
 			.add($("#freelance1"))
 			.add($("#freelance2"))
 			.add($("#freelance3"))
@@ -39,7 +39,7 @@ $(document).ready(function () {
 
 	//Setting up page navigation
 	parallax.index.onload=function(){
-		setTop("features", "Features");
+		setTop("photo", "Photography");
 		setRight("personal1", "Artistic Life");
 		setLeft("freelance1","Freelance Life");
 	};
@@ -80,10 +80,10 @@ $(document).ready(function () {
 			setRight("index", "Home");
 	};
 
-	// parallax.me.onload=function(){
-	// 	setLeft("features", "Features");
-	// 	setRight("index","Home");
-	// };
+	parallax.photo.onload=function(){
+		setBottom("index", "Home");
+
+	};
 
 
 	//Sets the correct triggers for the arrows, plus arrow keys
